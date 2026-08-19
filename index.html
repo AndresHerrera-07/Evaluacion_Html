@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal de noticias, reseñas y lanzamientos de videojuegos.">
+    <meta name="author" content="Jóvenes Innovadores">
+    <title>El Último Checkpoint | Portal de Videojuegos</title>
+</head>
+
+<body>
+
+ <header>
+        <h1>El Último Checkpoint</h1>
+        <p>Portal de noticias y reseñas de videojuegos</p>
+
+        <!-- Navegación principal -->
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="inicio">Inicio</a></li>
+                <li><a href="resena">Reseñas</a></li>
+                <li><a href="lanzamientos">Lanzamientos</a></li>
+                <li><a href="boletin">Boletín Gamer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main id="inicio">
+
+        <!-- Sección de reseña principal -->
+        <section id="resena">
+            <h2>Reseña destacada</h2>
+
+            <article>
+                <h3>The Legend of Zelda: Tears of the Kingdom</h3>
+
+                <img
+                    src="/home/andres/Evaluacion/Evaluacion_Html/imagenes/zelda-tears-of-the-kingdom-button-2k-1663127818777.webp"
+                    alt="Portada representativa del videojuego The Legend of Zelda: Tears of the Kingdom"
+                    width="300"
+                >
+
+                <p>
+                    The Legend of Zelda: Tears of the Kingdom es un videojuego
+                    de aventura y exploración en el que el jugador recorre
+                    diferentes regiones mientras resuelve desafíos y descubre
+                    nuevos elementos de la historia.
+                </p>
+
+                <p>
+                    Una de sus principales características es la libertad que
+                    ofrece al jugador para explorar el mundo y utilizar
+                    diferentes habilidades y recursos para superar los retos.
+                </p>
+
+                <h3>Veredicto</h3>
+
+                <p>
+                    El juego destaca por su exploración, variedad de desafíos
+                    y libertad para encontrar diferentes maneras de avanzar
+                    en la aventura.
+                </p>
+            </article>
+        </section>
+
+        <section id="lanzamientos">
+            <h2>Calendario de Lanzamientos</h2>
+
+            <table>
+                <caption>Próximos lanzamientos de videojuegos</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Videojuego</th>
+                        <th scope="col">Plataforma</th>
+                        <th scope="col">Fecha de lanzamiento</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>The Legend of Zelda: Tears of the Kingdom</td>
+                        <td>Nintendo Switch</td>
+                        <td>12 de mayo de 2023</td>
+                    </tr>
+
+                    <tr>
+                        <td>Resident Evil 4</td>
+                        <td>PlayStation 5, Xbox Series X/S y PC</td>
+                        <td>24 de marzo de 2023</td>
+                    </tr>
+
+                    <tr>
+                        <td>Videojuego por anunciar</td>
+                        <td>Por confirmar</td>
+                        <td>Próximamente</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="boletin">
+            <h2>Boletín Gamer</h2>
+
+            <p>
+                Suscríbete para recibir noticias y novedades sobre videojuegos.
+            </p>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        required
+                    >
+                </div>
+
+                <button type="submit">Suscribirme al boletín</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 El Último Checkpoint. Portal de videojuegos.</p>
+        <p>Proyecto desarrollado para el módulo Jóvenes Innovadores.</p>
+    </footer>
+
+</body>
+
+</html>
